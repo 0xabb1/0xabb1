@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Assembly">
+  <title>Assembly</title>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12" fill="#10201b" stroke="#2f8f69" stroke-width="2"/>
+  <text x="32" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#5cf2b0">ASM</text>
+  <text x="32" y="47" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#2f8f69">mov eax</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="GPU">
+  <title>GPU</title>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12" fill="#10201b" stroke="#2f8f69" stroke-width="2"/>
+  <g fill="none" stroke="#5cf2b0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="17" width="48" height="26" rx="3"/>
+    <circle cx="23" cy="30" r="8.5"/>
+    <path d="M23 30C23 26 26 23.5 29 24M23 30C26.5 32 27 36 25 38.5M23 30C19.5 32 16 30.5 15.5 27"/>
+    <rect x="37" y="23.5" width="13" height="13" rx="1.5"/>
+    <path d="M41.3 23.5V36.5M45.7 23.5V36.5M37 27.8H50M37 32.2H50" stroke-width="1.2"/>
+  </g>
+  <g fill="#5cf2b0">
+    <rect x="15" y="45" width="3" height="5" rx="0.8"/><rect x="20" y="45" width="3" height="5" rx="0.8"/><rect x="25" y="45" width="3" height="5" rx="0.8"/>
+    <rect x="32" y="45" width="3" height="5" rx="0.8"/><rect x="37" y="45" width="3" height="5" rx="0.8"/><rect x="42" y="45" width="3" height="5" rx="0.8"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Abby</title>
+  <desc id="d">Engineer working across secure systems and neurotech. An oscilloscope trace turns neuron spikes into a digital signal.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#173029" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0a1311"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <!-- Trace: three action potentials (neurons) becoming a square wave (silicon) -->
+    <path id="trace" pathLength="1000" fill="none" stroke="#2f8f69" stroke-width="2.5" stroke-linejoin="round" opacity="0.75"
+      d="M0 245 H140 L150 252 L158 188 L166 262 Q180 250 196 245 H300 L310 252 L318 188 L326 262 Q340 250 356 245 H470 L480 252 L488 188 L496 262 Q510 250 526 245 H600 V205 H650 V245 H690 V205 H760 V245 H790 V205 H830 V245 H900 V205 H980 V245 H1010 V205 H1050 V245 H1200"/>
+
+    <!-- Travelling signal pulse -->
+    <path pathLength="1000" fill="none" stroke="#5cf2b0" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"
+      stroke-dasharray="70 930" stroke-dashoffset="1000"
+      d="M0 245 H140 L150 252 L158 188 L166 262 Q180 250 196 245 H300 L310 252 L318 188 L326 262 Q340 250 356 245 H470 L480 252 L488 188 L496 262 Q510 250 526 245 H600 V205 H650 V245 H690 V205 H760 V245 H790 V205 H830 V245 H900 V205 H980 V245 H1010 V205 H1050 V245 H1200">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Title -->
+    <text x="58" y="110" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#eafff6" letter-spacing="1">Abby</text>
+    <text x="62" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#5cf2b0">engineer · secure systems · neurotech</text>
+
+    <!-- Corner tag -->
+    <text x="1140" y="58" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#4a7a68">// lab notebook · 0xabb1</text>
+
+    <!-- Axis labels -->
+    <text x="330" y="288" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#4a7a68" letter-spacing="2">NEURONS</text>
+    <text x="900" y="288" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#4a7a68" letter-spacing="2">SILICON</text>
+  </g>
+</svg>
